@@ -1,21 +1,21 @@
 # Tutorial of eLuvLetter usage
-[![license](https://img.shields.io/github/license/MuGeminorum/eLuvLetter.svg)](https://github.com/MuGeminorum/eLuvLetter/blob/master/LICENSE)
-[![Deploy static content to Pages](https://github.com/MuGeminorum/eLuvLetter/actions/workflows/static.yml/badge.svg?branch=main)](https://github.com/MuGeminorum/eLuvLetter/actions/workflows/static.yml)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/712880d1-1b1f-4500-a50f-16433c31d130/deploy-status)](https://app.netlify.com/sites/eluvletter/deploys)
+[![license](https://img.shields.io/github/license/MuGemSt/eLuvLetter.svg)](https://github.com/MuGemSt/eLuvLetter/blob/master/LICENSE)
+[![Deploy static content to Pages](https://github.com/MuGemSt/eLuvLetter/actions/workflows/static.yml/badge.svg?branch=main)](https://github.com/MuGemSt/eLuvLetter/actions/workflows/static.yml)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/154babf2-94f7-4abf-a333-6f3e150dcf09/deploy-status)](https://app.netlify.com/sites/eluvletter/deploys)
 [![bilibili](https://img.shields.io/badge/bilibili-BV1DV4y1c77c-fc8bab.svg)](https://www.bilibili.com/video/BV1DV4y1c77c)
-[![ms](https://img.shields.io/badge/ModelScope-eluvletter-624aff.svg)](https://www.modelscope.cn/studios/MuGeminorum/eluvletter)
-[![cnblog](https://img.shields.io/badge/cnblog-16617269-075db3.svg)](https://www.cnblogs.com/MuGeminorum/p/16617269.html)
+[![ms](https://img.shields.io/badge/ModelScope-eluvletter-624aff.svg)](https://www.modelscope.cn/studios/MuGem/eluvletter)
+[![cnblog](https://img.shields.io/badge/cnblog-16617269-075db3.svg)](https://www.cnblogs.com/MuGem/p/16617269.html)
 
 The heartbeat animation indicates that the BGM is loading, please be patient and wait util the envelope appears.
 
 ## Important links
-| Name                       | URL                                                        |
-| :------------------------- | :--------------------------------------------------------- |
-| Download Git               | <https://git-scm.com/downloads>                            |
-| eLuvLetter GitHub repo     | <https://github.com/MuGeminorum/eLuvLetter>                |
-| Netlify official website   | <https://app.netlify.com>                                  |
-| eLuvLetter demo on Netlify | <https://eluvletter.netlify.app>                           |
-| eLuvLetter JSON Generator  | <https://www.modelscope.cn/studios/MuGeminorum/eluvletter> |
+| Name                       | URL                                                  |
+| :------------------------- | :--------------------------------------------------- |
+| Download Git               | <https://git-scm.com/downloads>                      |
+| eLuvLetter GitHub repo     | <https://github.com/MuGemSt/eLuvLetter>              |
+| Netlify official website   | <https://app.netlify.com>                            |
+| eLuvLetter demo on Netlify | <https://eluvletter.netlify.app>                     |
+| eLuvLetter JSON Generator  | <https://www.modelscope.cn/studios/MuGem/eluvletter> |
 
 ## Customization
 1. Download and install Git;
@@ -25,7 +25,7 @@ The heartbeat animation indicates that the BGM is loading, please be patient and
 git clone https://github.com/%YOUR_GITHUB_USERNAME%/eLuvLetter.git
 cd eLuvLetter
 ```
-4. Go to the `./eLuvLetter/font/` directory, customize `content.json` by [eLuvLetter JSON Generator](https://www.modelscope.cn/studios/MuGeminorum/eluvletter):
+1. Go to the `./eLuvLetter/font/` directory, customize `content.json` by [eLuvLetter JSON Generator](https://www.modelscope.cn/studios/MuGem/eluvletter):
 ```json
 {
     "recipient"  : "The recipient centered on front of the envelope",
